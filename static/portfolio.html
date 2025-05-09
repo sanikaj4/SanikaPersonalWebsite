@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Young+Serif&display=swap" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Portfolio - Sanika Jain</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="../index.html">
+                        <h1>sanika<br>jain</h1>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="../index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="portfolio.html" class="active">portfolio</a></li>
+                    <li><a href="https://drive.google.com/file/d/1GTUg08cvI95OqgpJYHfERNk1mUeq4max/view?usp=sharing" target="_blank">resume</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="page-header">
+                <h2 class="highlight">My Portfolio</h2>
+            </section>
+
+            <section class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ux-research">UX Research</button>
+                <button class="filter-btn" data-filter="development">Development</button>
+                <button class="filter-btn" data-filter="content">Content Strategy</button>
+                <button class="filter-btn" data-filter="product-design">Product Design</button>
+                <button class="filter-btn" data-filter="academic">Academic</button>
+            </section>
+
+            <section class="portfolio-items">
+                <div class="portfolio-item ux-research academic">
+                    <div class="portfolio-image">
+                        <img src="./images/uxresearch.png" alt="AI Gender and Financial Literacy Outcomes" />
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>AI Gender and Financial Literacy Outcomes</h3>
+                        <h2>UX Research | Behavioral Analysis | R Programming</h2>
+                        <p>
+                            As part of CMU's 67-368 "UX Research for Product Managers" course, I conducted a study examining how the perceived gender of AI agents (male vs. female) affects user performance on financial literacy tasks. Using data collected via Prolific and analyzed in R, I connected behavioral insights with interface design implications. The final presentation showcased research methodology, statistical analysis, and user experience considerations.
+                        </p>
+                        <p>
+                            <a href="https://docs.google.com/presentation/d/1Fb8HMB5wQdqBMznBBPqYSbjWqqJol6TerkTBE-rLURQ/edit?usp=sharing" target="_blank" class="text-link">See the presentation here.</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item development">
+                    <div class="portfolio-image">
+                        <img src="./images/caffeinerush.png" alt="Caffeine Rush: Coffee Shop Simulation" />
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Caffeine Rush: Coffee Shop Simulation</h3>
+                        <h2>Python Development | Game Design | Entrepreneurship</h2>
+                        <p>
+                            For my final project in CMU's 15-112 "Fundamentals of CS and Programming" course, I built a fully interactive coffee shop simulation with over 1,000 lines of Python. Inspired by my passion for coffee and interest in entrepreneurship, the game incorporates pricing strategy, inventory management, and customer flow mechanics. Includes a walkthrough video explaining the simulation's design and functionality.
+                        </p>
+                        <p>
+                            <a href="https://youtu.be/XgGfS576lDY" target="_blank" class="text-link">Watch the video here.</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item website development">
+                    <div class="portfolio-image">
+                        <img src="./images/duquesne.png" alt="Duquesne Incline" />
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Duquesne Incline Website</h3>
+                        <h2>Website Development | Brand Redesign | HTML/CSS/JS</h2>
+                        <p>
+                            Redesigned the official Duquesne Incline website to reflect its historical charm while improving user navigation and mobile responsiveness. Leveraged clean HTML, CSS, and JavaScript to create an engaging experience that highlights key visitor information, ticketing, and the unique story behind this Pittsburgh landmark.
+                        </p>
+                        <p>
+                            <a href="https://sanikaj4.github.io/DuquesneIncline/" target="_blank" class="text-link">See the website here.</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item content">
+                    <div class="portfolio-image">
+                        <img src="./images/lomaira.png" alt="Health and Wellness Blogs" />
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Health and Wellness Blogs</h3>
+                        <h2>Content Strategy | Health Writing | AI-Generated Visuals</h2>
+                        <p>
+                            Since 2023, I've worked as a remote blog writer for Lomaira™, a weight-loss brand from KVK Tech, Inc. I develop articles focused on practical wellness tips, nutrition, mental health, and fitness—designed to resonate with readers pursuing healthier lifestyles. Each blog is paired with original visual graphics created using Midjourney for enhanced storytelling and brand cohesion.
+                        </p>
+                        <p>
+                            <a href="https://lomaira.com/category/lomaira_news/" target="_blank" class="text-link">Read my blogs here.</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item product-design">
+                    <div class="portfolio-image">
+                        <img src="./images/googlecampus.png" alt="Google Campus (1st Place at CMU ProdHacks)" />
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Google Campus (1st Place at CMU ProdHacks)</h3>
+                        <h2>Product Design | Accessibility | Pitch Presentation</h2>
+                        <p>
+                            Our team won 1st place at CMU's ProdHacks, a product hackathon sponsored by Microsoft and WealthMeUp.ai. We developed Google Campus, a navigation tool for college campuses that highlights indoor and accessible routes for students and visitors. I helped craft the business model, timeline, and interactive prototype, and we were invited to pitch the concept to Google product managers in person.
+                        </p>
+                        <p>
+                            <a href="https://youtu.be/im67bmSSKGE" target="_blank" class="text-link">Watch our video submission here.</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ux-research academic">
+                    <div class="portfolio-image">
+                        <img src="./images/ailiteracy.png" alt="AI in Education" />
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>AI in Education</h3>
+                        <h2>Academic Research | Data Visualization | Writing & Argumentation</h2>
+                        <p>
+                            For CMU's course 76-101 "Interpretation and Argument," I explored the role of algorithmic literacy in academic settings. My research combined observational study methods with data visualization in Tableau to examine how students perceive and interact with AI-based tools. The final presentation detailed the study's context, methodology, results, and implications for future use of AI in education.
+                        </p>
+                        <p>
+                            <a href="https://docs.google.com/presentation/d/1Wf3wGERvzu418WKNO1YEALTPMwZkg-D1F1JAmQ0ELfU/edit?usp=sharing" target="_blank" class="text-link">View my full presentation here.</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item academic">
+                    <div class="portfolio-image">
+                        <img src="./images/section230.png" alt="Section 230" />
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Section 230</h3>
+                        <h2>Policy Analysis | Persuasive Writing | Writing & Argumentation</h2>
+                        <p>
+                            In my final AP English Language and Composition paper, I analyzed Section 230 and its complex impact on online speech and platform responsibility. Drawing on my background as a multi-time national qualifier in Congressional Debate, I crafted a well-supported argument exploring legal precedent, policy reform, and free expression.
+                        </p>
+                        <p>
+                            <a href="https://docs.google.com/document/d/19rzO0en0LdRT40JesQV_kZc3W0ptPh4g/edit?usp=sharing&ouid=100554601983310648569&rtpof=true&sd=true" target="_blank" class="text-link">Read my paper here.</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
