@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,700,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Young+Serif&display=swap" rel="stylesheet">
     <link href="./styles.css" rel="stylesheet">
+    <script src="./script.js"></script>
     <title>About - Sanika Jain</title>
 </head>
 <body>
@@ -21,7 +22,7 @@
                     <li><a href="../index.html">home</a></li>
                     <li><a href="about.html" class="active">about</a></li>
                     <li><a href="portfolio.html">portfolio</a></li>
-                    <li><a href="https://drive.google.com/file/d/1GTUg08cvI95OqgpJYHfERNk1mUeq4max/view?usp=sharing" target="_blank">resume</a></li>
+                    <li><a href="resume.html">resume</a></li>
                     <li><a href="contact.html">contact</a></li>
                 </ul>
             </nav>
@@ -30,56 +31,74 @@
         <main>
             <section class="page-header">
                 <h2 class="highlight">About Me</h2>
-                <p class="subtitle">THE TL;DR</p>
             </section>
 
-            <section class="about-section basics">
-                <div class="about-card">
-                    <h3>the basics.</h3>
-                    <div class="two-column">
-                        <div class="column">
-                            <p>hometown</p>
-                            <p>education</p>
-                            <p>skills</p>
-                        </div>
-                        <div class="column">
-                            <p>Newtown, PA</p>
-                            <p>IS + Business, Carnegie Mellon University | Dean's List</p>
-                            <p>Python, Java, R, SQL, HTML/CSS/JS, Git, Figma, Excel (PivotTables, Solver), PowerPoint, Tableau, Notion, Visio, Google Suite, Canva, HubSpot, OOP, Regression Models, APIs, UX Research, Data Structures, SEO/SEM</p>
+            <div class="about-sections-container">
+                <!-- The basics section - full width -->
+                <section class="about-section basics">
+                    <div class="about-card">
+                        <h3>the basics.</h3>
+                        <div class="two-column">
+                            <div class="column">
+                                <p>hometown</p>
+                                <p>education</p>
+                                <p>skills</p>
+                            </div>
+                            <div class="column">
+                                <p>Newtown, PA</p>
+                                <p>IS + Business, Carnegie Mellon University | Dean's List</p>
+                                <p>Python, Java, R, SQL, HTML/CSS/JS, Git, Figma, Excel (PivotTables, Solver), PowerPoint, Tableau, Notion, Visio, Google Suite, Canva, HubSpot, OOP, Regression Models, APIs, UX Research, Data Structures, SEO/SEM</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <section class="about-section interests">
-                <div class="about-card">
-                    <h3>curious about, working towards.</h3>
-                    <ul>
-                        <li>building data-backed tools to help teams make smarter decisions (like I did in pharma marketing)</li>
-                        <li>making complex information clear and actionable through writing and visuals</li>
-                        <li>exploring how tech can support better outcomes and user experiences</li>
-                        <li>applying frameworks and structure to ambiguity—whether in a project, org, or assignment</li>
-                        <li>looking to improve how teams operate and ideas scale, staying curious and adaptable</li>
-                    </ul>
-                </div>
-            </section>
+                <!-- Container for the second row with two sections side by side -->
+                <div class="second-row-container">
+                    <!-- First section - interests -->
+                    <section class="about-section interests">
+                        <div class="about-card">
+                            <h3>curious about, working towards.</h3>
+                            <ul>
+                                <li>processing structured and unstructured data to make smarter decisions (like I did in pharma marketing)</li>
+                                <li>separating the signal from the noise</li>
+                                <li>creating visual respresentations of data</li>
+                                <li>applying design principles to reduce friction and enrich UI/UX</li>
+                                <li>staying curious and adaptable</li>
+                            </ul>
+                        </div>
+                    </section>
 
-            <section class="about-section side-quests">
-                <div class="about-card">
-                    <h3>side quests.</h3>
-                    <ul>
-                        <li>trying out new harmonies</li>
-                        <li>planning something way too detailed</li>
-                        <li>getting overly excited about a spreadsheet</li>
-                        <li>handwriting birthday cards</li>
-                        <li>getting iced coffee</li>
-                        <li>learning new things</li>
-                    </ul>
+                    <!-- Second section - side quests -->
+                    <section class="about-section side-quests">
+                        <div class="about-card">
+                            <h3>side quests.</h3>
+                            <ul>
+                                <li>trying out new harmonies</li>
+                                <li>obsessing over spreadsheets</li>
+                                <li>handwriting birthday cards</li>
+                                <li>getting iced coffee (even in the winter)</li>
+                                <li>being inquisitive</li>
+                            </ul>
+                        </div>
+                    </section>
                 </div>
-            </section>
+            </div>
         </main>
     </div>
-
-    <script src="./script.js"></script>
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-info">
+                <p>
+                    <a href="mailto:sanikaj@andrew.cmu.edu">Email</a> |
+                    <a href="https://www.linkedin.com/in/sanikajain-/" target="_blank">LinkedIn</a> | 
+                    <a href="https://github.com/sanikaj4" target="_blank">GitHub</a>
+                </p>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Sanika Jain | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
